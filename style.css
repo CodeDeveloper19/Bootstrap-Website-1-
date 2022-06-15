@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+}
+
+/* .container{
+    height: 2000px;
+    background-color: aqua;
+} */
+
+header{
+    /* height: 470px; */
+    background-color: #151e3d;
+}
+
+main{
+    height: 370px;
+}
+
+footer{
+    /* height: 110px; */
+    background-color: #151e3d;
+}
