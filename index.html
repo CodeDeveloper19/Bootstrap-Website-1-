@@ -11,45 +11,55 @@
     <script defer src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 </head>
-<body class="h-auto w-100">
+<body>
     <header class="container-fluid text-light pt-5 pb-4 px-8 bg-primary">
-        <div class="justify-content-center h-40 d-flex flex-row">
-            <h1 class="col ms-5 fw-normal text-uppercase"> Vykaa's Conference</h1>
-            <div class="container-fluid d-flex flex-column">
-                <h2 class="row fs-5 text-phthalogreen">
+        <div class="conatiner-fluid justify-content-center h-40 d-flex flex-row">
+            <h1 class="fw-normal text-uppercase fs-6 w-30"> Vykaa's Conference</h1>
+            <div class="d-flex flex-column align-content-end">
+                <h2 class="row fs-3 text-cyan text-left text-danger fw-bolder">
                     December 24 to January 26th — Victoria Island, Lagos
                 </h2>
-                <div class="navbar">
-                    <ul class="list-unstyled">
-                        <li>Home</li>
-                        <li>Speakers</li>
-                        <li>Schedule</li>
-                        <li>Venue</li>
-                        <li>Register</li>
+                <nav class=>
+                    <ul class="navbar-nav fs-2 d-flex flex-row">
+                        <li class="nav-item mx-2">
+                            <a class="nav-link active" href="#">Home</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Speakers</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Schedule</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Venue</a>
+                        </li>
+                        <li class="nav-item mx-2">
+                            <a class="nav-link" href="#">Register</a>
+                        </li>
                     </ul>
-                </div>
+                </nav>
             </div>
         </div>
-        <div class="h-30">
-            <div class="text-center">Dedicated to the Craft of Building Websites</div>
-            <div class="text-center">Every year the brightest web designers and front-end developers assemble in Lagos to talk about the latest tech logies. Join us this Christmas!</div>
+        <div class="h-30 py-6">
+            <div class="text-danger text-center fs-5 mb-3 fw-bolder">Dedicated to the Craft of Building Websites</div>
+            <div class="text-center fs-3">Every year the brightest web designers and front-end developers assemble in Lagos to talk about the latest tech logies. Join us this Christmas!</div>
         </div>
-        <div class="d-flex justify-content-center align-items-center h-40 py-4">
-            <button type="submit" class="btn btn-primary p-3 h-100 btn-outline-secondary text-light">Register Now</button>
+        <div class="d-flex justify-content-center align-items-center h-40 pb-5">
+            <button type="submit" class="btn btn-primary text-light fs-3 py-3 px-5 h-100 btn-outline-secondary">Register Now</button>
         </div>
     </header>
     <main class="container-fluid py-6 px-8">
         <p>Test</p>
     </main>
-    <footer class="container-fluid bg-primary d-flex flex-row px-7">
-        <h5 class="text-black d-flex justify-content-center align-items-center fs-6 fw-bold">© Vykaa's Conference</h5>
-        <div class="navbar">
-            <ul class="list-unstyled">
-                <li>Home</li>
-                <li>Speakers</li>
-                <li>Schedule</li>
-                <li>Venue</li>
-                <li>Register</li>
+    <footer class="container-fluid bg-primary d-flex flex-row px-7 py-5">
+        <h5 class="text-dark d-flex justify-content-center align-items-center fs-1 fw-bold">© Vykaa's Conference</h5>
+        <div class="navbar w-90 bg-danger">
+            <ul class="list-inline">
+                <li class="list-inline-item">Home</li>
+                <li class="list-inline-item">Speakers</li>
+                <li class="list-inline-item">Schedule</li>
+                <li class="list-inline-item">Venue</li>
+                <li class="list-inline-item">Register</li>
             </ul>
         </div>
     </footer>

@@ -1,5 +1,28 @@
 $primary: #151e3d;
-// $primary: $red;
+$danger: #123524;
+$dark: #000;
+
+$nav-link-color: rgba(255, 255, 255, 0.7);
+$nav-link-hover-color: #fff;
+
+$font-size-root: 1rem !default;
+
+$font-sizes: (
+    1: $font-size-root * 0.813,  //13px
+    2: $font-size-root * 1,  //16px
+    3: $font-size-root * 1.25, //20px
+    4: $font-size-root * 1.438, //23px
+    5: $font-size-root * 1.875, //30px
+) !default;
+
+
+// $font-sizes: (
+//     1: $font-size-root * 0.952,  //13px
+//     2: $font-size-root * 1.171,  //16px
+//     3: $font-size-root * 1.464, //20px
+//     4: $font-size-root * 1.684, //23px
+//     5: $font-size-root * 2.196, //30px
+// ) !default;
 
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
@@ -11,13 +34,25 @@ $custom-spacers: (
     8: $spacer * 12.5  //200px
 );
 
-$custom-theme-colors: (
-    "black": #000000,
-    "phthalogreen": #123524,
+$custom-spacers: (
+    6: 5%,
+    7: 10%,
+    8: 15%,
+    9: 20%,
+    10: 25%,
+    11: 30%
 );
 
+$custom-font-sizes: (
+    6: $font-size-root * 2.5 //40px
+);
+
+// $custom-font-sizes: (
+//     6: $font-size-root * 2.928 //40px
+// );
+
 $spacers: map-merge($custom-spacers, $spacers);
-$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+// $font-sizes: map-merge($custom-font-sizes, $font-sizes);
 
 //imports bootstrap
 @import '../node_modules/bootstrap/scss/bootstrap';

@@ -1,6 +1,6 @@
 .btn-primary:hover{
     background-color: white;
-    color: #123524;
+    color: #123524 !important;
 }
 
 body{
