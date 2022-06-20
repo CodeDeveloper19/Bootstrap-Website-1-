@@ -3,6 +3,14 @@
     color: #123524 !important;
 }
 
-body{
+header{
     font-family: 'Montserrat', sans-serif;
 }
+
+p{
+    font-family: 'Shalimar', cursive;
+}
+
+/* .card-text{
+    margin-top: 50px;
+} */
