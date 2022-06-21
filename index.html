@@ -10,19 +10,26 @@
     <title>Conference Homepage</title>
     <script defer src="script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-OvBgP9A2JBgiRad/mM36mkzXSXaJE9BEIENnVEmeZdITvwT09xnxLtT4twkCa8m/loMbPHsvPl0T8lRGVBwjlQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://kit.fontawesome.com/c123ad8ef2.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header class="container-fluid text-light pt-5 pb-4 px-xl-8 px-lg-7 px-7 bg-primary">
-        <div class="container-fluid justify-content-center h-40 d-flex flex-row">
-            <h1 class="fw-normal text-uppercase fs-6 w-30"> Vykaa's Conference</h1>
-            <div class="d-flex flex-column align-content-end">
-                <h2 class="row fs-3 text-cyan text-left text-danger fw-bolder">
-                    December 24 to January 26th — Victoria Island, Lagos
-                </h2>
+        <div class="container-fluid justify-content-lg-center justify-content-between h-40 d-flex flex-row">
+            <h1 class="fw-normal text-uppercase fs-6 m-0 d-flex align-items-center"> Vykaa's Conference</h1>
+            <div class="d-flex flex-lg-column flex-xs-column flex-row">
                 <nav class="navbar navbar-expand-lg">
-                    <button class="navbar-toggler bg-danger" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#date" aria-controls="date" aria-expanded="false" aria-label="Toggle navigation">
+                        <i class="fa-regular fa-calendar-check"></i>
+                    </button>
+                    <h2 class="row fs-3 text-right text-danger fw-bolder collapse navbar-collapse m-0" id="date">
+                        December 24 to January 26th — Victoria Island, Lagos
+                    </h2>
+                </nav>
+                <nav class="navbar navbar-expand-lg d-flex justify-content-end">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-header" aria-controls="navbar-header" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbar-header">
                         <ul class="navbar-nav fs-2 d-flex flex-row">
                             <li class="nav-item mx-2">
                                 <a class="nav-link active" href="#">Home</a>
@@ -56,33 +63,33 @@
         <div class="row">
             <div class="card border-0 col-lg-4">
                 <div class="card-body">
-                    <h4 class="card-title fs-2 text-uppercase fw-bold text-danger" style="font-family: 'Times New Roman'">Speakers</h4>
+                    <h4 class="card-title fs-2 text-uppercase fw-bold text-danger">Speakers</h4>
                     <img class="card-img my-12" src="/Images/conference1.jpg" alt="conference room image">
-                    <a href="#" class="card-text text-decoration-none fs-3 text-danger fw-light" style="font-family: 'Times New Roman'">World-Class Speakers</a>
+                    <a href="#" class="card-text text-decoration-none fs-3 text-danger fw-light">World-Class Speakers</a>
                     <p class="mt-12 card-text fs-4">Joining us from all around the world are over fifty fantastic speakers, here to share their stories.</p>
                 </div>
             </div>
             <div class="card border-0 col-lg-4">
                 <div class="card-body">
-                    <h4 class="card-title fs-2 text-uppercase fw-bold text-danger" style="font-family: 'Times New Roman'">Schedule</h4>
+                    <h4 class="card-title fs-2 text-uppercase fw-bold text-danger">Schedule</h4>
                     <img class="card-img my-12" src="/Images/conference.jpg" alt="people sitting in a conference">
-                    <a href="#" class="card-text text-decoration-none fs-3 text-danger fw-light" style="font-family: 'Times New Roman'">Four Inspiring Weeks</a>
+                    <a href="#" class="card-text text-decoration-none fs-3 text-danger fw-light">Four Inspiring Weeks</a>
                     <p class="mt-12 card-text fs-4">Enjoy and participate in four inspiring and action-packed Weeks of tales, gatherings, and all-around good times.</p>
                 </div>
             </div>
             <div class="card border-0 col-lg-4">
                 <div class="card-body">
-                    <h4 class="card-title fs-2 text-uppercase fw-bold text-danger" style="font-family: 'Times New Roman'">Venue</h4>
+                    <h4 class="card-title fs-2 text-uppercase fw-bold text-danger">Venue</h4>
                     <img class="card-img my-12" src="/Images/ekohotels.jpg" alt="aerial view of ekohotels, lagos">
-                    <a href="#" class="card-text text-decoration-none fs-3 text-danger fw-light" style="font-family: 'Times New Roman'">Eko Hotel and Suites</a>
+                    <a href="#" class="card-text text-decoration-none fs-3 text-danger fw-light">Eko Hotel and Suites</a>
                     <p class="mt-12 card-text fs-4">Within the heart of Lagos Island, The Eko Hotels and Suites will provide a beautiful conference venue.</p>
                 </div>
             </div>
         </div>
     </main>
     <footer class="container-fluid bg-primary d-flex flex-row px-7 py-5 justify-content-between">
-        <h5 class="text-dark d-flex justify-content-center align-items-center fs-1 fw-normal">© Vykaa's Conference</h5>
-        <nav>
+        <h5 class="text-dark d-flex justify-content-center align-items-center fs-1 fw-normal m-0">© Vykaa's Conference</h5>
+        <!-- <nav>
             <ul class="navbar-nav fs-1 d-flex flex-row">
                 <li class="nav-item mx-2">
                     <a class="nav-link active" href="#">Home</a>
@@ -100,6 +107,30 @@
                     <a class="nav-link" href="#">Register</a>
                 </li>
             </ul>
+        </nav> -->
+        <nav class="navbar navbar-expand-sm d-flex justify-content-end">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-footer" aria-controls="navbar-footer" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars"></i>
+                </button>
+            <div class="collapse navbar-collapse" id="navbar-footer">
+                <ul class="navbar-nav fs-1 d-flex flex-row">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Speakers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Schedule</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Venue</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Register</a>
+                    </li>
+                </ul>
+            <div>
         </nav>
     </footer>
 </body>
