@@ -3,6 +3,12 @@
     color: #123524 !important;
 }
 
+@media only screen and (max-width: 300px){
+    main, footer, header{
+        overflow-x: scroll;
+    }
+}
+
 header{
     font-family: 'Montserrat', sans-serif;
 }
