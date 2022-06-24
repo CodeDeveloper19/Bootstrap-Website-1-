@@ -1,5 +1,5 @@
 $primary: #151e3d;
-$danger: #123524;
+$danger: #4F7942;
 $dark: #000;
 
 $nav-link-color: rgba(255, 255, 255, 0.7);
@@ -17,6 +17,16 @@ $font-sizes: (
     5: $font-size-root * 1.875, //30px
 ) !default;
 
+$grid-breakpoints: (
+    xs: 0,
+    sm: 576px,
+    md: 768px,
+    lg: 992px,
+    xl: 1200px,
+    xxl: 1400px,
+    sl: 2020px
+) !default;
+
 @import '../node_modules/bootstrap/scss/functions';
 @import '../node_modules/bootstrap/scss/variables';
 
@@ -32,6 +42,10 @@ $custom-spacers: (
 
 $custom-font-sizes: (
     6: $font-size-root * 2.5 //40px
+);
+
+$custom-grid-breakpoints: (
+    sl: 2500px
 );
 
 $spacers: map-merge($custom-spacers, $spacers);

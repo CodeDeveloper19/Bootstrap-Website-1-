@@ -23,8 +23,17 @@ p{
     font-family: 'Times New Roman';
 }
 
+.card-img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
 #footer-ul li{
     margin: 0 auto;
+}
+
+main{
+    min-height: 100vh;
 }
 
 @media only screen and (max-width: 300px){
@@ -43,4 +52,3 @@ p{
         padding-left: 12px;
     }
 }
-

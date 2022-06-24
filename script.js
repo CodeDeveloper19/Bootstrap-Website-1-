@@ -8,11 +8,13 @@ let counter3 = 0;
 document.getElementById("date-button").addEventListener("click", () => {
     counter1++;
     let jmediaquery = window.matchMedia( "(max-width: 990px)" );
-    if (jmediaquery.matches && document.getElementById("header").classList[5] == "flex-row" && !isHeaderButtonOn) {
+    if (jmediaquery.matches && document.getElementById("header").classList[6] == "flex-row" && !isHeaderButtonOn) {
+
         document.getElementById("header").classList.replace("flex-row", "flex-column");
         isDateButtonOn = true;
     }
-    else if (jmediaquery.matches && document.getElementById("header").classList[5] == "flex-column" && !isHeaderButtonOn) {
+    else if (jmediaquery.matches && document.getElementById("header").classList[6] == "flex-column" && !isHeaderButtonOn) {
+
         document.getElementById("header").classList.replace("flex-column", "flex-row");
         isDateButtonOn = false;
     }
@@ -27,11 +29,13 @@ document.getElementById("date-button").addEventListener("click", () => {
 document.getElementById("navbar-header-button").addEventListener("click", () => {
     counter2++;
     let jmediaquery = window.matchMedia( "(max-width: 990px)" );
-    if (jmediaquery.matches && document.getElementById("header").classList[5] == "flex-row" && !isDateButtonOn) {
+    if (jmediaquery.matches && document.getElementById("header").classList[6] == "flex-row" && !isDateButtonOn) {
+
         document.getElementById("header").classList.replace("flex-row", "flex-column");
         isHeaderButtonOn = true;
     }
-    else if (jmediaquery.matches && document.getElementById("header").classList[5] == "flex-column" && !isDateButtonOn) {
+    else if (jmediaquery.matches && document.getElementById("header").classList[6] == "flex-column" && !isDateButtonOn) {
+
         document.getElementById("header").classList.replace("flex-column", "flex-row");
         isHeaderButtonOn = false;
     }
