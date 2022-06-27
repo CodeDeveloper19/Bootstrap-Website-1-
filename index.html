@@ -13,9 +13,9 @@
     <script src="https://kit.fontawesome.com/c123ad8ef2.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <header class="container-fluid text-light pt-5 pb-4 px-xl-8 px-lg-7 px-7 bg-primary">
-        <div class="container-fluid justify-content-lg-center justify-content-xxl-between justify-content-between h-40 d-flex flex-row" id="header">
-            <h1 class="fw-normal text-uppercase fs-6 m-0 d-flex align-items-center"> Vykaa's Conference</h1>
+    <header class="text-light pt-5 pb-4 px-xl-8 px-lg-7 px-7 bg-primary" id="home">
+        <div class="justify-content-lg-center justify-content-xxl-between justify-content-between h-40 d-flex flex-row" id="header">
+            <h1 class="fw-normal text-uppercase fs-6 m-0 d-flex align-items-center h-auto"> Vykaa's Conference</h1>
             <div class="d-flex flex-column">
                 <nav class="navbar navbar-expand-lg">
                     <button class="navbar-toggler ps-3 p-0" type="button" data-bs-toggle="collapse" data-bs-target="#date" aria-controls="date" aria-expanded="false" aria-label="Toggle navigation" id="date-button">
@@ -30,18 +30,18 @@
                     <i class="fa-solid fa-bars"></i>
                     </button>
                     <div class="collapse navbar-collapse" id="navbar-header">
-                        <ul class="navbar-nav fs-2 d-flex flex-row">
+                        <ul class="navbar-nav fs-2 d-flex flex-xs-column flex-sm-row">
                             <li class="nav-item mx-2">
-                                <a class="nav-link active" href="#">Home</a>
+                                <a class="nav-link active" href="#home">Home</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="#">Speakers</a>
+                                <a class="nav-link" href="#speakers">Speakers</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="#">Schedule</a>
+                                <a class="nav-link" href="#schedule">Schedule</a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="#">Venue</a>
+                                <a class="nav-link" href="#venue">Venue</a>
                             </li>
                             <li class="nav-item mx-2">
                                 <a class="nav-link" href="#">Register</a>
@@ -61,7 +61,7 @@
     </header>
     <main class="container-fluid px-lg-7 py-5 px-9 d-flex flex-row justify-content-center">
         <div class="row d-flex justify-content-xxl-between">
-            <div class="card border-0 col-lg-4 col-xxl-3 col-sl-2 m-sl-auto">
+            <div class="card border-0 col-lg-4 col-xxl-3 col-sl-2 m-sl-auto" id="speakers">
                 <div class="card-body d-flex flex-column justify-content-center">
                     <h4 class="card-title fs-2 text-uppercase fw-bold text-danger">Speakers</h4>
                     <img class="card-img my-12" src="/Images/conference1.jpg" alt="conference room image">
@@ -70,7 +70,7 @@
                 </div>
             </div>
             <div class="card border-0 col-lg-4 col-xxl-3 col-sl-2 m-sl-auto">
-                <div class="card-body d-flex flex-column justify-content-center">
+                <div class="card-body d-flex flex-column justify-content-center" id="schedule">
                     <h4 class="card-title fs-2 text-uppercase fw-bold text-danger">Schedule</h4>
                     <img class="card-img my-12" src="/Images/conference.jpg" alt="people sitting in a conference">
                     <a href="#" class="card-text text-decoration-none fs-3 text-danger fw-light">Four Inspiring Weeks</a>
@@ -78,7 +78,7 @@
                 </div>
             </div>
             <div class="card border-0 col-lg-4 col-xxl-3 col-sl-2 m-sl-auto">
-                <div class="card-body d-flex flex-column justify-content-center">
+                <div class="card-body d-flex flex-column justify-content-center" id="venue">
                     <h4 class="card-title fs-2 text-uppercase fw-bold text-danger">Venue</h4>
                     <img class="card-img my-12" src="/Images/ekohotels.jpg" alt="aerial view of ekohotels, lagos">
                     <a href="#" class="card-text text-decoration-none fs-3 text-danger fw-light">Eko Hotel and Suites</a>
@@ -98,16 +98,16 @@
             <div class="collapse navbar-collapse" id="navbar-footer">
                 <ul class="navbar-nav fs-1 d-flex flex-row" id="footer-ul">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Speakers</a>
+                        <a class="nav-link" href="#speakers">Speakers</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Schedule</a>
+                        <a class="nav-link" href="#schedule">Schedule</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Venue</a>
+                        <a class="nav-link" href="#venue">Venue</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Register</a>
