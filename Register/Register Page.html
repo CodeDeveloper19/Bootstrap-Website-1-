@@ -8,28 +8,28 @@
     <link rel="stylesheet" href="/css/main.min.css">
     <link rel="stylesheet" href="/css/Register Page.css">
 </head>
-<body>
-    <main id="main">
-        <img src="../Images/the-climate-reality-project-Hb6uWq0i4MI-unsplash.jpg" alt="tech conference hall filled with people">
-    <form>
-        <p class="example">Get 21 Days of Hacking Tutorials, Tips and Tricks </p>
-        <p class="hack">We are one of the best Hacking Tutorial Academies out there with the aim of raising the next generation of PenTesters</p>
-        <p class="expect">What to expect:</p>
-        <ul class="list">
-            <li>Daily Hacking Motivational Speeches for the next 31 days </li> 
-            <li>An e-Book on the very essentials of hacking </li>
-            <li>Short Videos and Clips from some of the best Pen Testers around the world</li>
+<body class="d-flex justify-content-center align-items-center">
+    <main id="main" class="fw-light d-flex flex-row overflow-hidden rounded">
+        <img src="../Images/the-climate-reality-project-Hb6uWq0i4MI-unsplash.jpg" alt="tech conference hall filled with people" class="h-100 w-50">
+    <form class="bg-light w-50 h-100 py-14 px-13">
+        <p class="example form-text fw-bold fs-3">Get 21 Days of Hacking Tutorials, Tips and Tricks </p>
+        <p class="hack form-text fs-0">As a vast organisation of web developers and web designers, you are sure to connect with the top-brains in the industry.</p>
+        <p class="expect form-text fs-0 fw-bold">What to expect:</p>
+        <ul class="list fs-0 text-justify">
+            <li class="form-text">Meet numerous tech-recruiters from different A-grade companies.</li> 
+            <li class="form-text">Connect with other web developers and designers like you.</li>
+            <li class="form-text">Engaging and impactful seminars on how to grow and succeed in the industry</li>
         </ul>
-        <p class="quote">We live in a world where all wars will begin as cyber wars</p>
+        <p class="quote form-text fs-0 fst-italic">Website without visitors is like a ship lost in the horizon</p>
         <div class="lucky">
-            <div class="details"> 
-                <p>Your Name</p>
+            <div class="details fs-0 mb-12"> 
+                <label for="name" class="form-text mb-14">Your Name</label>
                 <input id="name" type="text"/>
-                <p>Your Email (required)</p>
-                <input id= "email" type="email" name="" required/></br>
+                <label for="email" class="form-text my-14">Your Email (required)</label>
+                <input id= "email" type="email" name="email" required/></br>
             </div>
-            <input id= "submit" type="submit" name="" value="Join in on the Fun"/></br>
-            <a href="#">We respect <p class="privacy">your email privacy</p></a>
+            <input id= "submit" type="submit" class="btn border-0 w-100 bg-info mb-14 text-capitalize text-light fw-bold" value="Join in on the Fun"/></br>
+            <a href="#" class="text-decoration-none text-dark fs-0">We respect <p class="privacy form-text text-warning d-inline text-decoration-underline">your email privacy</p></a>
         </div>
     </form>
 </main>

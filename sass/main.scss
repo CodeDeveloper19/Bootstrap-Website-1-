@@ -1,15 +1,28 @@
 $primary: #151e3d;
 $danger: #4F7942;
 $dark: #000;
+$info: rgb(76, 179, 76);
+$warning: blue;
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 0.4rem !important;
+}
+  
+
 
 $nav-link-color: rgba(255, 255, 255, 0.7);
 $nav-link-hover-color: #fff;
 
 $border-radius: 0.625rem;
 
+$form-text-color: $dark;
+
 $font-size-root: 1rem !default;
 
 $font-sizes: (
+    0: $font-size-root * 0.75, //12px
     1: $font-size-root * 0.813,  //13px
     2: $font-size-root * 1,  //16px
     3: $font-size-root * 1.25, //20px
@@ -37,7 +50,9 @@ $custom-spacers: (
     9: 20%,
     10: 25%,
     11: 30%,
-    12: 20px
+    12: 20px, 
+    13: 30px, 
+    14: 15px
 );
 
 $custom-font-sizes: (

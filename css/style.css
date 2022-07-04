@@ -11,10 +11,6 @@ p{
     font-family: 'Shalimar', cursive;
 }
 
-.fa-bars, .fa-calendar-check{
-    color: white;
-}
-
 .navbar-toggler:focus{
     box-shadow: none;
 }
