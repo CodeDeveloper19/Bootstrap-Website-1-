@@ -13,6 +13,10 @@ body{
     height: 500px;
 }
 
+form{
+    width: 50%;
+}
+
 /* Contains the edits for the image attached*/
 #main img {
     object-fit: cover;
@@ -30,13 +34,13 @@ body{
 }
 
 #name, #email{
-    width: 400px;
     height: 20px;
 }
 
 /* Contains the Submit Button edits for the next 17 lines */
 #submit{
-    height: 45px;
+    min-height: 45px;
+    height: auto;
 }
 
 #submit:hover{
@@ -45,4 +49,17 @@ body{
 
 .privacy:hover{
     color: orange !important;
+}
+
+@media only screen and (max-width: 992px) {
+    #main{
+        width: 100%;
+        height: 100%;
+        border-radius: 0 !important;
+    }
+
+    form{
+        width: 100%;
+        overflow: scroll;
+    }
 }
