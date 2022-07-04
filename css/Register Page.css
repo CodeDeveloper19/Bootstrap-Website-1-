@@ -1,0 +1,146 @@
+body{
+    background-image: url("../Images/the-climate-reality-project-Hb6uWq0i4MI-unsplash.jpg");
+    object-fit: cover;
+    backdrop-filter: blur(5px);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contains the edits for both the image and form details*/
+#main{
+    font-family: 'Times New Roman';
+    font-weight: 300;
+    width: 900px;
+    height: 460px;
+    border-radius: 10px;
+}
+
+/* Contains the edits for the form box*/
+#main form{
+    position: relative;
+    width: 50%;
+    margin: auto;
+    height: 100%;
+    background-color: white;
+    padding: 0px;
+    float: right;
+}
+
+/* Contains the edits for the image attached*/
+#main img {
+    width: 50%;
+    height: inherit;
+    position: relative;
+    float: left;
+}
+
+/* Contains the edits for the name, password, and submit button box*/
+.lucky{
+    position: absolute;
+    bottom: 0px;
+}
+
+.details{
+    position: absolute;
+    bottom: 100px;
+    left: 15px; 
+    font-family: cursive;
+    font-size: 12px;
+    padding: 0px 5px 0px 5px;
+}
+
+.example{
+    font-weight: bold;
+    font-size: 22px;
+    padding: 0px 15px 0px 20px;
+    font-family: cursive;
+    position: absolute;
+    top: -10px;
+}
+
+.hack, .expect, .quote{
+    font-size: 12px;
+    font-family: cursive;
+    position: absolute;
+    top: 65px;
+    padding: 0px 20px 0px 20px;
+}
+
+.expect{
+    top: 105px;
+    font-weight: bold;
+}
+
+/* Contains the bullet point list edits*/
+.list{
+    top: 125px;
+    font-size: 12px;
+    font-family: cursive;
+    position: absolute;
+    list-style-position: inside; /*a property that lets us move the bullets to within our content area.*/
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.quote{
+    top: 200px;
+    font-style: italic;
+    padding: 0px 30px 0px 30px;
+}
+
+#name{
+    width: 400px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+#email{
+    width: 400px;
+    height: 20px;
+    border-radius: 2px;
+}
+
+/* Contains the Submit Button edits for the next 17 lines */
+#submit{
+    background-color: rgb(76, 179, 76);
+    cursor: pointer;
+    width: 406px;
+    height: 45px;
+    border: none;
+    position: absolute;
+    bottom: 40px;
+    left: 20px;
+    font-family: cursive;
+    text-transform: capitalize;
+    color: white;
+    font-weight: bold;
+}
+
+#submit:hover{
+    background-color: orange;
+}
+
+/* Contains the "We Respect Your Email Privacy" edits for the next 19 lines of code */
+a{
+    text-decoration: none;
+    color: black;
+    position: relative;
+    bottom: 20px;
+    left: 20px;
+    font-family: cursive;
+    font-size: 12px;
+}
+
+p.privacy{
+    text-decoration: underline;
+    display: inline; /*This makes the privacy paragraph not to jump into another line*/
+    color: blue;
+}
+
+p.privacy:hover{
+    color:orange;
+}
+
