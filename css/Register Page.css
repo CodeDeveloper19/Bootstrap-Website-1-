@@ -25,7 +25,8 @@ form{
 /* Contains the edits for the name, password, and submit button box*/
 
 .hack, .expect, .quote, .details, .example, .list, .submit, a{
-    font-family: cursive;
+    /* font-family: cursive; */
+    font-family: 'Lato', sans-serif;
 }
 
 /* Contains the bullet point list edits*/
